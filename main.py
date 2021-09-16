@@ -56,7 +56,7 @@ def get_email_info():
     talk('Tell me the text in your email')
     message = get_info()
     send_email(receiver, subject, message)
-    talk('Hey lazy ass. Your email is sent')
+    talk('Your email is sent')
     talk('Do you want to send more email?')
     send_more = get_info()
     if 'yes' in send_more:
